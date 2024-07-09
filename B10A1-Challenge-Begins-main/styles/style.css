@@ -1,0 +1,30 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+/*nav*/
+.nav-main{padding: 47px 130pxs;
+    display: flex;
+    justify-items: space-between;
+
+
+}
+.list-list{
+ text-decoration: none;
+}
+
+.navigate{
+    display:inline-flex;
+    justify-items: space-between;
+}
+
+/*head*/
+.man{
+
+    justify-items: center;
+    align-items: center;
+}
+div.man img {
+    align-content: center;
+
+}
