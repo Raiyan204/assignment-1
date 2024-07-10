@@ -6,13 +6,14 @@
     margin: 50px 200px;
 }
 
-.navigate{
-    display:inline-flex;
+.nav-main{
+   display:flex;
     list-style-type: none;
-    justify-items: space-between;
+   justify-content: space-between;
 }
 
 main{max-width: 1100px;}
+footer{max-width: 1100px;}
 /*head*/
 .man{
     background-image:url(../assets/Hero-bg.png);
@@ -28,8 +29,11 @@ main{max-width: 1100px;}
     margin-bottom: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+}
+.head-para{
+    margin-top: none;
 }
 .img-container{margin-bottom: 32px;}
 
@@ -39,9 +43,25 @@ main{max-width: 1100px;}
     margin: 74px auto;
 
 }
+.pg-two-buttons{
+
+}
 .pg-two-main-heading{
     margin-bottom: 50px;
     align-content: center;
+}
+.pg-two-buttons{
+width: 149px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+flex: none;
+margin: 32px 0px;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
 }
 .pg-two-one{
     display: flex;
@@ -73,10 +93,17 @@ main{max-width: 1100px;}
     margin-bottom: 24px;
 
 }
-.skill-container > h3{
+.skill-container{
+    border-radius: 16px;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-container > h2{
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 } 
 .link{
     color: black;
@@ -138,5 +165,45 @@ main{max-width: 1100px;}
 .part-six-text{
     padding: 3px;
     margin: 8px;
+    color: white;
     
+}
+.part-six > p {
+    margin-bottom:24px;
+    padding-bottom: 20px;
+}
+.inp{
+    width: 548px;
+height: 57px;
+align-items: center;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+}
+/*info*/
+.information{
+    display: flex;
+    gap: 1px;
+}
+.last-button{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 16px
+}
+/*footer*/
+.last-items{
+    display:inline-flex;
+    list-style-type: none;
+    justify-items: space-between;
+    gap: 550px;
+}
+.last-divs{
+   width: 390px;
+   height: 24px; 
+}
+.last-nav{
+    display: flex;
+    align-self:flex-end;
 }
