@@ -13,18 +13,26 @@
 }
 
 main{max-width: 1100px;}
-body{max-width: 1100px;}
 /*head*/
 .man{
-    margin: 47px 230px;
-    background-image:url(assets/Hero-bg.png);
-    align-content: center;
-    justify-content: center;
+    background-image:url(../assets/Hero-bg.png);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+    height: 615px;
 }
-div.man img {
-    align-content: center;
-    justify-content: center;
+.head-head{
+    width: 998px;
+    height: 130px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
+.img-container{margin-bottom: 32px;}
+
 /*main*/
 .why-web-development{
     padding: 80px 97px;
@@ -58,6 +66,9 @@ div.man img {
     margin-top: 48px;
     margin-bottom: 111px;
 }
+.part-five > p {
+    padding-bottom: 15px;
+}
 .skill-container > img{
     margin-bottom: 24px;
 
@@ -81,4 +92,51 @@ div.man img {
 
 .next-skills{
     gap: 30px;
+    
+}
+.technology{
+    display: flex;
+    padding: 40px;
+    margin: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.next-technology-heading{
+    padding: 10px;
+    margin: 8px;
+}
+.next-technology-heading{}
+
+.next-technology-para{
+    padding-bottom: 15px;
+    margin: 8px;
+}
+.next-technology-content{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+
+.technology > a {
+    align-self: flex-start;
+
+}
+
+.part-six{
+    position: static;
+    width: 1044px;
+    height: 314px;
+    padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: first baseline;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+}
+.part-six-text{
+    padding: 3px;
+    margin: 8px;
+    
 }
